@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Research Log"
+date:   2025-03-14 21:02:27 -0400
+---
+
+## 🧪 Research Log: Ethanol Oxidation on Pt(111)
+**Date:** November 9, 2025  
+
+Performed DFT calculations to evaluate adsorption energies for intermediates in the ethanol oxidation reaction on Pt(111).  
+Adsorbed species include CH₃CH₂OH*, CH₃CH₂O*, CH₃CHOH*, CH₃CHO*, CH₃COH*, CH₃CO*, CH₃COOH*, H*, and OH*.  
+All structures optimized with PBE-D3 (IVDW=11, ENCUT=500 eV, ISMEAR=1, SIGMA=0.1 eV, EDIFFG=-0.02 eV Å⁻¹).  
+
+
+Vibrational frequency analyses were performed to obtain zero-point energies and entropic corrections.  
+The **Computational Hydrogen Electrode (CHE)** model was applied to compute potential-dependent free energies at 298 K.  
+
+**Current focus:** calculating the reaction free-energy changes for each elementary step, constructing a potential-dependent energy diagram, and preparing **NEB** calculations to determine activation barriers for key transformations.
+---
